@@ -9,7 +9,7 @@ public class Unit3_2IfStatements {
 		
 		//if (something is true) {Do this}
 		
-		int howOld = 35;
+		int howOld = 45;
 		System.out.println("Are you old?");
 		
 		if (howOld>=40) {
@@ -27,9 +27,9 @@ public class Unit3_2IfStatements {
 		String talking = inputInfo.next();
 		talking += inputInfo.nextLine();
 		
-		if (talking.length()<2) {
+		if (talking.length()<=2) {
 			System.out.println("You must say more than a letter.");
-			saySomething();
+			
 		}
 		if (talking.length()>=2) {
 			System.out.println("Thank you for saying something.");

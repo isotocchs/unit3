@@ -14,7 +14,7 @@ public class Unit3Main {
 		//ifElse.ifTesting();
 		
 		Unit3_4ElseIf elseIfs = new Unit3_4ElseIf();
-		//elseIfs.saySomething();
+		elseIfs.saySomething();
 		
 		
 

@@ -39,6 +39,9 @@ public class Unit3_1BooleanExpressions {
 	//Or ||
 	//And &&
 		
+//		int age1 = 78;
+//		int age2 = 23;
+		
 		boolean orTest = age1>age2||age1<age2;
 		System.out.println("Using || "+orTest);
 		

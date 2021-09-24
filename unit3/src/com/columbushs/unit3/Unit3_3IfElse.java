@@ -6,7 +6,7 @@ public void ifTesting() {
 		
 		//if (something is true) {Do this} else {do this}
 		
-		int howOld = 35;
+		int howOld = 45;
 		System.out.println("Are you old?");
 		
 		if (howOld>=40) {

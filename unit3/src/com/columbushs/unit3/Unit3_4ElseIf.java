@@ -22,7 +22,9 @@ public class Unit3_4ElseIf {
 			saySomething();
 		} else if (talking.length()>=2 && talking.equals("applesauce")) {
 			System.out.println("You have said the secret word. Congratulations!!!");
-		} 
+		} else {
+			System.out.println("You must say more than a letter.");
+			}
 		
 		
 	}
