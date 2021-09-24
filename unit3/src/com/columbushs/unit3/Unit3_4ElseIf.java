@@ -17,14 +17,17 @@ public class Unit3_4ElseIf {
 		if (talking.length()>=2) {
 			System.out.println("Thank you for saying something.");
 			System.out.println("This is what you said: "+talking);
-		} else if (talking.length()>=2 && !talking.equals("applesauce")) {
+		} else {
+			System.out.println("You must say more than a letter.");
+		}
+			
+		if (talking.length()>=2 && !talking.equals("applesauce")) {
 			System.out.println("You have not said the secret word. Try again.");
 			saySomething();
 		} else if (talking.length()>=2 && talking.equals("applesauce")) {
 			System.out.println("You have said the secret word. Congratulations!!!");
-		} else {
-			System.out.println("You must say more than a letter.");
-			}
+		} 			
+		
 		
 		
 	}
