@@ -30,10 +30,13 @@ public class Unit3_6EquivalentBoolean {
 	
 	//If A = true and B=false what does !(A||B)&&B evaluate to?
 	
+	
+	
 	boolean A = true;
 	boolean B = false;
 	
-	boolean C = !((A||B)&&B);
-	
+	boolean C = !(A||B)&&B;
+	//careful with parentheses and order of operations
+	boolean D = !((A||B)&&B);
 	
 }
