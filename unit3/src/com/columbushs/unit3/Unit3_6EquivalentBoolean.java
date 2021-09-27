@@ -33,7 +33,7 @@ public class Unit3_6EquivalentBoolean {
 	boolean A = true;
 	boolean B = false;
 	
-	boolean C = !(A||B)&&B;
+	boolean C = !((A||B)&&B);
 	
 	
 }

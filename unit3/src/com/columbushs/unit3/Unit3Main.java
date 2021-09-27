@@ -19,7 +19,8 @@ public class Unit3Main {
 		Unit3_5CompoundBooleanExp moreIfs = new Unit3_5CompoundBooleanExp();
 		//moreIfs.nestedIfs();
 		
-		
+		Unit3_6EquivalentBoolean bools = new Unit3_6EquivalentBoolean();
+		System.out.println(bools.C);
 
 	}
 
