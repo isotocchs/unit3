@@ -11,8 +11,9 @@ public class Unit3_2IfStatements {
 		
 		int howOld = 45;
 		System.out.println("Are you old?");
+		boolean howOldBool = howOld<=40;
 		
-		if (howOld>=40) {
+		if (howOldBool) {
 			System.out.println("Yes you're old.");
 		}
 	}

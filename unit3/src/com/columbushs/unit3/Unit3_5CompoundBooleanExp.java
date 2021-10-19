@@ -22,6 +22,7 @@ public class Unit3_5CompoundBooleanExp {
 			System.out.println("The number is not greater than 10.");
 		}
 		//Careful with curly brackets and which ifs and elses go together.
+
 	}
 
 }

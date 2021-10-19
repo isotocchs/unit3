@@ -26,17 +26,17 @@ public class Unit3_6EquivalentBoolean {
 	
 	
 	//What is the equivalent of !(x < 5 && x >= 34)
-	
+		
 	
 	//If A = true and B=false what does !(A||B)&&B evaluate to?
 	
 	
 	
-	boolean A = true;
+	boolean A = false;
 	boolean B = false;
 	
-	boolean C = !(A||B)&&B;
+	boolean C = (B||!A);
 	//careful with parentheses and order of operations
-	boolean D = !((A||B)&&B);
+	boolean D = A&&!(B||A); //A&&!B&&!A
 	
 }
