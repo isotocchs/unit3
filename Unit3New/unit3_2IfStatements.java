@@ -7,7 +7,7 @@ public class unit3_2IfStatements {
 		
 		//if (something is true) {Do this}
 		System.out.println("----------------------");
-		int howOld = 45;
+		int howOld = 67;
 		System.out.println("Are you old?");
 		boolean howOldBool = howOld>=40;
 		
@@ -27,7 +27,7 @@ public class unit3_2IfStatements {
 
 
 		Scanner inputInfo = new Scanner(System.in);
-		System.out.print("What do you want to say? ");
+		System.out.print("what is your word ");
 		String talking = inputInfo.next();
 		talking += inputInfo.nextLine();
 		

@@ -5,12 +5,12 @@ public void ifTesting() {
 		
 		//if (something is true) {Do this} else {do this}
 		
-		int howOld = 67;
+		int howOld = 40;
 		System.out.println("Are you old?");
 		
-		if (howOld<=40) {
+		if (howOld<40) {
 			System.out.println("Yes you're old.");
-		} else if (howOld>=40) {
+		} else if (howOld>40) {
 			System.out.println("Yes you're old number 2.");
 		}
 		else {
@@ -18,7 +18,7 @@ public void ifTesting() {
 			System.out.println("You are not old.");
 		}
 
-		if (howOld>=40) {
+		if (howOld<40) {
 			System.out.println("Yes you're old.");
 		}
 	}
