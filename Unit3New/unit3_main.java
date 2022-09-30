@@ -13,10 +13,12 @@ public class unit3_main {
 		//ifTests.saySomething();
 		
 		unit3_3Else ifElse = new unit3_3Else();
-		ifElse.ifTesting();
+		//ifElse.ifTesting();
 		
 		unit3_4ElseIf elseIfs = new unit3_4ElseIf();
-		//elseIfs.saySomething();
+		elseIfs.saySomething();
+
+		
 		
 		//Unit3_5CompoundBooleanExp moreIfs = new Unit3_5CompoundBooleanExp();
 		//moreIfs.nestedIfs();
