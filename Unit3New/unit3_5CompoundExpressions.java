@@ -9,15 +9,22 @@ public class unit3_5CompoundExpressions {
 		int number = inputInfo.nextInt();
 		
 		if (number>10) {
-			
+			System.out.println("The number is greater than 10.");
 			if (number%5 ==0) {
 				System.out.println("The number is greater than 10 and divisible by 5.");
 			} else {
 				System.out.println("The number is greater than 10 but not divisible by 5.");
 			}
-			
+			System.out.println("The number is greater than 10 Againnnnnn.");
+
 		} else {
 			System.out.println("The number is not greater than 10.");
+
+			if (number%5 ==0) {
+				System.out.println("The number is not greater than 10 and divisible by 5.");
+			} else {
+				System.out.println("The number is not greater than 10 but not divisible by 5.");
+			}
 		}
 		//Careful with curly brackets and which ifs and elses go together.
 
