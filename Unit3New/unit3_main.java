@@ -20,10 +20,10 @@ public class unit3_main {
 
 		
 		
-		//Unit3_5CompoundBooleanExp moreIfs = new Unit3_5CompoundBooleanExp();
+		//unit3_5CompoundExpressions moreIfs = new unit3_5CompoundExpressions();
 		//moreIfs.nestedIfs();
 		
-		//Unit3_6EquivalentBoolean bools = new Unit3_6EquivalentBoolean();
+		//unit3_6EquivalentBool bools = new unit3_6EquivalentBool();
 		//System.out.println(bools.C);
 //		boolean boolStuff;
 //		int val = 1900;
@@ -35,13 +35,13 @@ public class unit3_main {
 //		System.out.println(boolStuff);
 		
 		//Object info and memory
-		//Unit3_7ComparingObjects person1 = new Unit3_7ComparingObjects("Bob",23,6);
+		//unit3_7ComparingObjects person1 = new unit3_7ComparingObjects("Bob",23,6);
 		
-		//Unit3_7ComparingObjects person2 = new Unit3_7ComparingObjects("Bob",23,6);
+		//unit3_7ComparingObjects person2 = new unit3_7ComparingObjects("Bob",23,6);
 		
-		//Unit3_7ComparingObjects person3 = person1;
+		//unit3_7ComparingObjects person3 = person1;
 		
-		//Unit3_7ComparingObjects person4;
+		//unit3_7ComparingObjects person4;
 		
 //		boolean same = person1==person2;
 //		//System.out.println(same);
