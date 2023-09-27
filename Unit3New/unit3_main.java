@@ -6,11 +6,12 @@ public class unit3_main {
 
 	public static void main(String[] args) {
 		unit3_1BooleanExpressions boolTest = new unit3_1BooleanExpressions();
-		//boolTest.booleanExp();
-		
+		boolTest.booleanExp();
+		System.out.println("----------------------");
+
 		unit3_2IfStatements ifTests = new unit3_2IfStatements();
 		//ifTests.ifTesting();
-		//ifTests.saySomething();
+		ifTests.saySomething();
 		
 		unit3_3Else ifElse = new unit3_3Else();
 		//ifElse.ifTesting();
@@ -19,7 +20,8 @@ public class unit3_main {
 		//elseIfs.saySomething();
 
 		
-		
+		System.out.println("----------------------");
+
 		unit3_5CompoundExpressions moreIfs = new unit3_5CompoundExpressions();
 		//moreIfs.nestedIfs();
 		
@@ -42,16 +44,18 @@ public class unit3_main {
 		unit3_7ComparingObjects person3 = person1;
 		
 		unit3_7ComparingObjects person4;
-		
-		boolean same = person1==person3;
+		//person4 = new unit3_7ComparingObjects("Bob",23,6);
+		//boolean same = person1==person4;
 		System.out.println("----------------------");
+		//System.out.println(person4);
+		//System.out.println(person3);
 		//System.out.println(same);
 //		
 		boolean same2 = person1.equals(person3);
 		//System.out.println(same2);
 //		
 		boolean same3 = person1.age==person2.age;
-		System.out.println(same3);
+		//System.out.println(same3);
 
 
 System.out.println("----------------------");

@@ -7,8 +7,10 @@ public class unit3_5CompoundExpressions {
 		Scanner inputInfo = new Scanner(System.in);
 		System.out.print("What is the number you want to check?");
 		int number = inputInfo.nextInt();
-		
-		if (number>10) {
+		if (number > 34){
+			System.out.print("Hello");
+		}
+		else if (number>10) {
 			System.out.println("The number is greater than 10.");
 			if (number%5 ==0) {
 				System.out.println("The number is greater than 10 and divisible by 5.");

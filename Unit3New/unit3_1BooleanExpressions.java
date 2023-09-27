@@ -12,25 +12,25 @@ public class unit3_1BooleanExpressions {
 		System.out.println("Using == "+equals);
 		
 		boolean notEquals = age1!=age2;
-		System.out.println("Using != "+notEquals);
+		// System.out.println("Using != "+notEquals);
 		
 	//Less than <
 	//Greater than >
 	
 		boolean lessThan = age1<age2;
-		System.out.println("Using < "+lessThan);
+		// System.out.println("Using < "+lessThan);
 		
 		boolean greaterThan = age1>age2;
-		System.out.println("Using > "+greaterThan);
+		// System.out.println("Using > "+greaterThan);
 		
 	//Less than or equal to <=
 	//Greater than or equal to >=
 		
 		boolean lessThanOrEqual = age1<=age2;
-		System.out.println("Using <= "+lessThanOrEqual);
+		// System.out.println("Using <= "+lessThanOrEqual);
 		
 		boolean greaterThanOrEqual = age1>=age2;
-		System.out.println("Using >= "+greaterThanOrEqual);
+		// System.out.println("Using >= "+greaterThanOrEqual);
 	
 	
 		
@@ -41,10 +41,10 @@ public class unit3_1BooleanExpressions {
 //		int age2 = 23;
 		
 		boolean orTest = age1>age2||(age1<age2&&(age1<=age2||age1>age2));
-		System.out.println("Using || "+orTest);
+		// System.out.println("Using || "+orTest);
 		
 		boolean andTest = age1>=age2&&age1<=age2;
-		System.out.println("Using && "+andTest);
+		// System.out.println("Using && "+andTest);
 	
 		
 	
