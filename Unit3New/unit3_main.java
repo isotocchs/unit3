@@ -6,24 +6,25 @@ public class unit3_main {
 
 	public static void main(String[] args) {
 		unit3_1BooleanExpressions boolTest = new unit3_1BooleanExpressions();
-		boolTest.booleanExp();
-		System.out.println("----------------------");
+				System.out.println("----------------------");
+
+		// boolTest.booleanExp();
 
 		unit3_2IfStatements ifTests = new unit3_2IfStatements();
-		//ifTests.ifTesting();
-		ifTests.saySomething();
+		// ifTests.ifTesting();
+		// ifTests.saySomething();
 		
 		unit3_3Else ifElse = new unit3_3Else();
-		//ifElse.ifTesting();
+		// ifElse.ifTesting();
 		
 		unit3_4ElseIf elseIfs = new unit3_4ElseIf();
-		//elseIfs.saySomething();
+		// elseIfs.saySomething();
 
 		
 		System.out.println("----------------------");
 
 		unit3_5CompoundExpressions moreIfs = new unit3_5CompoundExpressions();
-		//moreIfs.nestedIfs();
+		moreIfs.nestedIfs();
 		
 		unit3_6EquivalentBool bools = new unit3_6EquivalentBool();
 		//System.out.println(bools.D);
